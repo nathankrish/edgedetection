@@ -1,5 +1,4 @@
-# edgedetection
-My STEM Project on edge detection in noisy medical images
+# My STEM Project on edge detection in noisy medical images
 
 Medical images are the first resource doctors use to make a diagnosis. Automatic feature detection enables faster diagnoses by highlighting important structures. However, feature detection algorithms are less accurate when noise is introduced into images. Gray level co – occurrence matrices (GLCMs) were generated to calculate contrast in chest x – ray images with synthetic Gaussian noise. The calculated contrast was used to threshold the image while accounting for noise. Canny edge detection was used to produce edge maps from the thresholded images. A traditional snake model was then applied to the edge maps to produce lung masks. Edge accuracy from the lung mask extraction was measured by calculating RMSE, or root mean square error, between lung masks at different noise levels. RMSE was highest when comparing low and high noise lung masks, but lowest when comparing medium and high noise lung masks. In the future, lung masks will be compared to expert edges to improve accuracy measurements.
 
